@@ -1,0 +1,27 @@
+.recommend{
+  height: 5.28rem;
+  >ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    li{
+      ul{
+        display: block;
+        >li+li{
+          margin-top: 2px;
+        }
+      }
+      a{
+        display: block;
+        height: 100%;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    >li+li{
+      margin-left: 4px;
+    }
+  }
+}

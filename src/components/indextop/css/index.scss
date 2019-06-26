@@ -1,0 +1,38 @@
+.index_top{
+    /*sticky 的父级元素要有滚动条 很高 */
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .28rem;
+    height: .8rem;
+    background-color: #f2f2f2;
+    .logo{
+        width: .50rem;
+        height: .32rem;
+    }
+    .search{
+        display: flex;
+        align-items: center;
+        width: 5.38rem;
+        height: .64rem;
+        text-indent: .17rem;
+        border: 1px solid #e5e5e5;
+        border-radius: .04rem;
+        i{
+
+        }
+        span{
+            font-size: .3rem;
+            color: rgba(0,0,0,.3)
+        }
+    }
+    .login{
+        width: .5rem;
+        height: .5rem;
+        font-size: .4rem;
+    }
+}
